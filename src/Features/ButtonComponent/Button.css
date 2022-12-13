@@ -1,0 +1,21 @@
+.btn-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-bx button{
+    border: none;
+    outline: none;
+    border: 1px solid lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem .7rem;
+    gap: 1rem;
+    font-family: monospace;
+    cursor: pointer;
+}
+.btn-bx button:hover{
+    background: black;
+    color: whitesmoke;
+}

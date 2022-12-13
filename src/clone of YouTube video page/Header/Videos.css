@@ -1,0 +1,27 @@
+.v-container{
+    background-color: honeydew;
+    padding: 2vmax;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.v-box{
+    box-sizing:border-box ;
+    width: 300px;
+    height: 320px;
+    background-color: royalblue;
+    padding: 1vmax;
+    font-family: monospace;
+}
+.v-box img{
+    width: 100%;
+}
+.v-box h3{
+    color: white;
+}
+.v-box p{
+    color: white;
+}

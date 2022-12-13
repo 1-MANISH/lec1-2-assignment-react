@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+
+import Accordian from './accordion component/Accordian';
 import './App.css';
+import Header from './clone of YouTube video page/Header/Header';
+import Videos from './clone of YouTube video page/Header/Videos';
+import Features from './Features/Features';
+import Notes from './NOTES TAKING APP/Notes';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className="App">
+          <Header/>
+          <Accordian />
+          <Videos/>
+          <Features/>
+          <Notes/>
+      </div>
+    );
 }
 
 export default App;
